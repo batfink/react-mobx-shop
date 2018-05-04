@@ -1,3 +1,5 @@
+/* eslint semi: [ "warn", "never" ], indent: [ "warn", 4 ] */
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'mobx-react'

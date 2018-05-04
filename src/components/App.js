@@ -1,6 +1,7 @@
+/* eslint semi: [ "error", "never" ], indent: [ "error", 4 ] */
+
 import React from 'react'
 import { observer, inject } from 'mobx-react'
-import logo from '../logo.svg'
 import './App.css'
 
 import Books from "./Books"
@@ -41,7 +42,6 @@ function renderPage(viewStore) {
 
 const AppHeader = () => (
   <div className="App-header">
-    <img src={logo} className="App-logo" alt="logo" />
     <h2>Welcome to the React MobX Book shop!</h2>
   </div>
 )
